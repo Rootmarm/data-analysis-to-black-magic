@@ -5,7 +5,7 @@
 
 ## Installation
 
-  - [Chrome](https://chrome.google.com/webstore/detail/bonmeicpmgkaeadpggngpnbemmfehmhj/)
+  - [Chrome](https://chrome.google.com/webstore/detail/cpdoocmkmdakhclfphmmdnpldcbeloip)
 
 
 

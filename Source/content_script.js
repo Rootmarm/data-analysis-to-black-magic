@@ -23,7 +23,7 @@ function replaceText(v)
 {
 
 
-    // Data Analysis
+    // Replace
     v = v.replace(
         /\b(?:Data Analysis)|(?:Analysis Data)\b/g,
         "Black Magic"
@@ -32,7 +32,10 @@ function replaceText(v)
         /\b(?:data analysis)|(?:analysis data)\b/g,
         "black magic"
     );
-
+    v = v.replace(
+        /\b(?:Data analysis)|(?:analysis Data)\b/g,
+        "Black magic"
+);
     v = v.replace(
         /\b(?:Big Data)|(?:Data Big)\b/g,
         "Black Magic"
@@ -41,7 +44,24 @@ function replaceText(v)
         /\b(?:big data)|(?:data big)\b/g,
         "black magic"
     );
-    
+    v = v.replace(
+        /\b(?:Big data)|(?:data Big)\b/g,
+        "Black magic"
+      );
+
+    v = v.replace(
+        /\b(?:data science)|(?:science data)\b/g,
+        "black magic"
+    );
+    v = v.replace(
+        /\b(?:Data Science)|(?:Science Data)\b/g,
+        "Black Magic"
+    );
+    v = v.replace(
+        /\b(?:Data science)|(?:science Data)\b/g,
+        "Black magic"
+    );
+
 
     return v;
 }
